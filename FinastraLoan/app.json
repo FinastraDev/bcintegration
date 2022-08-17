@@ -1,0 +1,36 @@
+{
+  "id": "4f3615c5-c052-4d4a-b954-a83654824c78",
+  "name": "Finastra",
+  "publisher": "Default publisher",
+  "version": "1.0.0.7",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "10cb69d9-bc8a-4d27-970a-9e110e9db2a5",
+      "name": "_Exclude_APIV2_",
+      "publisher": "Microsoft",
+      "version": "20.0.0.0"
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0"
+}

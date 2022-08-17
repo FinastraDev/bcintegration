@@ -1,9 +1,9 @@
 {
     "folders":  [
-                    {
-                        "path":  ".AL-Go"
-                    }
-                ],
+        {
+            "path": "FinastraLoan"
+        }
+    ],
     "settings":  {
 
                  }
