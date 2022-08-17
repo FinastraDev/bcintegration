@@ -1,0 +1,29 @@
+@BaseURL = https://api.businesscentral.dynamics.com/
+@TenantID = e65191ae-ab23-4975-b578-5b6bd21068f6
+//old
+//@ClientID = 8d8316d6-b2e4-4f83-83f9-1e53b3c44faf
+//@ClientSecret = UUT8Q~tU9IU7KmfHz0nV5h4~JFgkML~sBKzOScLA
+//new
+@ClientID = bb6d5d2a-76b9-4aec-986d-5dfde141d707
+@ClientSecret = BwS8Q~9ua_4FS5iFBLUSjL1frog0faTA4WZIybbK
+
+@authToken = {{get_token_client.response.body.$.access_token}}
+
+@EnvName = Dev
+
+@scope = {{BaseURL}}.default
+
+###
+# @name get_token_client
+POST https://login.microsoftonline.com/{{TenantID}}/oauth2/v2.0/token HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials&
+client_id={{ClientID}}&
+client_secret={{ClientSecret}}&
+scope={{scope}}&
+
+###
+# @name get_companies
+GET {{BaseURL}}v2.0/{{TenantID}}/{{EnvName}}/api/v2.0/companies HTTP/1.1
+Authorization: Bearer {{authToken}}
