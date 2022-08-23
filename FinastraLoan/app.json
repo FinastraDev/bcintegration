@@ -1,22 +1,23 @@
 {
   "id": "4f3615c5-c052-4d4a-b954-a83654824c78",
-  "name": "Finastra",
-  "publisher": "Default publisher",
-  "version": "1.0.0.8",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "name": "Finastra Loan Hub",
+  "publisher": "Finastra",
+  "version": "1.0.0.0",
+  "brief": "Finastra Loan Hub solution offers small and medium businesses a direct route to loans offered via Business Central. The solution builds connectivity and relationships between financial institutions and the business requiring a loan.",
+  "description": "Finastra Loan Hub solution offers small and medium businesses a direct route to loans offered via Business Central. The solution builds connectivity and relationships between financial institutions and the business requiring a loan.",
+  "privacyStatement": "https://Finastra.com/test",
+  "EULA": "https://Finastra.com/test",
+  "help": "https://Finastra.com/test",
+  "url": "https://Finastra.com",
+  "logo": "./logo/finastralogo.png",
+  "contextSensitiveHelpUrl": "https://Finastra.com/test",
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "20.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 71338575,
+      "to": 71339574
     }
   ],
   "dependencies": [
@@ -32,5 +33,6 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
+  "features": ["TranslationFile","GenerateCaptions"],
   "runtime": "8.0"
 }

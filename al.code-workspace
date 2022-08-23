@@ -2,6 +2,9 @@
     "folders":  [
         {
             "path": "FinastraLoan"
+        },
+        {
+            "path": "TestApp"
         }
     ],
     "settings":  {
