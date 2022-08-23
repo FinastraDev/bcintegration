@@ -1,14 +1,15 @@
-permissionset 50100 "FINASTRA"
+permissionset 71338575 "FLH FINASTRA"
 {
     Assignable = true;
+
     Caption = 'Finastra API call', MaxLength = 30;
     IncludedPermissionSets = LOGIN;
     Permissions =
-        codeunit FinastraWebServicesMgt = X,
-        codeunit "Finastra Azure AD Mgt." = X,
-        codeunit "Finastra Security Mgt." = X,
-        codeunit "Finastra Event Mgt." = X,
-        page FinastraLoan = X,
+        codeunit "FLH Web Services Mgt." = X,
+        codeunit "FLH Azure AD Mgt." = X,
+        codeunit "FLH Security Mgt." = X,
+        codeunit "FLH Event Mgt." = X,
+        page "FLH FinastraLoan" = X,
         TableData "Accounting Period" = R,
         TableData "Company Information" = R,
         TableData "General Ledger Setup" = R,

@@ -1,15 +1,15 @@
-pageextension 50101 "Finastra Headline RC Bus. Mng." extends "Headline RC Business Manager"
+pageextension 71338577 "FLH Headline RC Bus. Mng." extends "Headline RC Business Manager"
 {
     layout
     {
         addbefore(Control1)
         {
-            field(FinastraLoan; FinastraTxt)
+            field("FLH FinastraLoan"; FinastraTxt)
             {
                 ApplicationArea = All;
                 trigger OnDrillDown()
                 begin
-                    Page.Run(Page::FinastraLoan);
+                    Page.Run(Page::"FLH FinastraLoan");
                 end;
             }
 

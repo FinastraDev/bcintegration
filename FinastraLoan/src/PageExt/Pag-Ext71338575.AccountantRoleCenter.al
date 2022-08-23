@@ -1,15 +1,15 @@
-pageextension 50120 "Finastra Acc. Role Center" extends "Accountant Role Center"
+pageextension 71338575 "FLH Acc. Role Center" extends "Accountant Role Center"
 {
     actions
     {
 
         addlast(creation)
         {
-            action("Finastra Loan")
+            action("FLH Finastra Loan")
             {
                 ApplicationArea = All;
                 Caption = 'Loan Application by Finastra';
-                RunObject = page FinastraLoan;
+                RunObject = page "FLH FinastraLoan";
             }
 
         }

@@ -1,4 +1,4 @@
-codeunit 50101 "Finastra Event Mgt."
+codeunit 71338576 "FLH Event Mgt."
 {
 
     trigger OnRun()
@@ -23,8 +23,8 @@ codeunit 50101 "Finastra Event Mgt."
     local procedure ShowFinastaraNotification(): Boolean
     var
         MyNotifications: Record "My Notifications";
-        AzureService: codeunit "Finastra Azure AD Mgt.";
-        FinastraSetupMng: codeunit "Finastra Setup Mng.";
+        AzureService: codeunit "FLH Azure AD Mgt.";
+        FinastraSetupMng: codeunit "FLH Setup Mng.";
     begin
         if not MyNotifications.IsEnabled(NotificationId) then
             exit(false);
@@ -42,20 +42,20 @@ codeunit 50101 "Finastra Event Mgt."
         FinastraNotification.Message := NotificationMessage;
         FinastraNotification.Scope := NotificationScope::LocalScope;
         //FinastraNotification.AddAction('Finastra Loan', Codeunit::"Finastra Event Mgt.", 'FinastraLoanNotificationAction');
-        FinastraNotification.AddAction(lblGrantConsent, Codeunit::"Finastra Event Mgt.", 'FinastraGrantConsentNotficationAction');
-        FinastraNotification.AddAction(lblDontShowMeAgain, Codeunit::"Finastra Event Mgt.", 'FinastraDontShowMeAgainNotficationAction');
+        FinastraNotification.AddAction(lblGrantConsent, Codeunit::"FLH Event Mgt.", 'FinastraGrantConsentNotficationAction');
+        FinastraNotification.AddAction(lblDontShowMeAgain, Codeunit::"FLH Event Mgt.", 'FinastraDontShowMeAgainNotficationAction');
         FinastraNotification.Send();
     end;
 
     procedure FinastraLoanNotificationAction(FinastraNotification: Notification)
     begin
-        Page.Run(Page::FinastraLoan);
+        Page.Run(Page::"FLH FinastraLoan");
     end;
 
     procedure FinastraGrantConsentNotficationAction(FinastraNotification: Notification)
     var
         AAD: Record "AAD Application";
-        SetupMgt: Codeunit "Finastra Setup Mng.";
+        SetupMgt: Codeunit "FLH Setup Mng.";
     begin
         if not AAD.Get(SetupMgt.GetIntegrationClientId()) then begin
             SetupMgt.CreateIntegrationAADApplication();

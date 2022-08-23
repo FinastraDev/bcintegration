@@ -1,4 +1,4 @@
-codeunit 50100 FinastraWebServicesMgt
+codeunit 71338575 "FLH Web Services Mgt."
 {
     var
         TestMode: boolean;
@@ -118,7 +118,7 @@ codeunit 50100 FinastraWebServicesMgt
 
     local procedure GetAuthToken() Token: Text
     var
-        SecService: Codeunit "Finastra Security Mgt.";
+        SecService: Codeunit "FLH Security Mgt.";
         Parameters: Dictionary of [Text, Text];
         JsonObj: JsonObject;
         JsonTok: JsonToken;

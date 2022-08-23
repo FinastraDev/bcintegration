@@ -1,8 +1,8 @@
-codeunit 50104 "Finastra Setup Mng."
+codeunit 71338578 "FLH Setup Mng."
 {
     procedure CreateIntegrationAADApplication()
     var
-        AADApplicationInterface: Codeunit "Finastra Azure AD Mgt.";
+        AADApplicationInterface: Codeunit "FLH Azure AD Mgt.";
         AppInfo: ModuleInfo;
         ClientDescription: Text[50];
         ContactInformation: Text[50];
