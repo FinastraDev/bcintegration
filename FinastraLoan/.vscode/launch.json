@@ -15,9 +15,26 @@
             "enableSqlInformationDebugger": true,
             "enableLongRunningSqlStatements": true,
             "longRunningSqlStatementsThreshold": 500,
-            "numberOfSqlStatements": 10
+            "numberOfSqlStatements": 10,
+            "schemaUpdateMode": "ForceSync"
         },
-
+        {
+            "name": "Finastra Demo sandbox",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "Demo",
+            "tenant": "e65191ae-ab23-4975-b578-5b6bd21068f6",
+            "startupObjectId": 50120,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "schemaUpdateMode": "ForceSync"
+        },
         {
             "name": "Your own server",
             "request": "launch",
