@@ -15,7 +15,7 @@
       "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
       "publisher": "Microsoft",
       "name": "Library Assert",
-      "version": "19.0.0.0"
+      "version": "20.4.0.0"
     },
     {
       "id": "4f3615c5-c052-4d4a-b954-a83654824c78",
@@ -25,8 +25,8 @@
     }
   ],
   "screenshots": [],
-  "platform": "20.0.0.0",
-  "application": "20.0.0.0",
+  "platform": "2.0.0.0",
+  "application": "20.4.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -34,6 +34,5 @@
     }
   ],
   "contextSensitiveHelpUrl": "https://TestApp.com/help/",
-  "showMyCode": true,
-  "runtime": "8.0"
+  "runtime": "9.0"
 }

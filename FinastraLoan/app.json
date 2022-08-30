@@ -13,7 +13,7 @@
   "contextSensitiveHelpUrl": "https://Finastra.com/test",
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "20.0.0.0",
+  "application": "20.4.0.0",
   "idRanges": [
     {
       "from": 71338575,
@@ -25,7 +25,7 @@
       "id": "10cb69d9-bc8a-4d27-970a-9e110e9db2a5",
       "name": "_Exclude_APIV2_",
       "publisher": "Microsoft",
-      "version": "20.0.0.0"
+      "version": "20.4.0.0"
     }
   ],
   "resourceExposurePolicy": {
@@ -34,5 +34,5 @@
     "includeSourceInSymbolFile": false
   },
   "features": ["TranslationFile","GenerateCaptions"],
-  "runtime": "8.0"
+  "runtime": "9.0"
 }
