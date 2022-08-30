@@ -1,4 +1,4 @@
-codeunit 50103 "Finastra Azure AD Mgt."
+codeunit 71338579 "FLH Azure AD Mgt."
 {
     procedure CreateAADApplication(ClientId: Guid; ClientDescription: Text[50]; ContactInformation: Text[50]; AppInfo: ModuleInfo; PermissionSets: List of [Code[20]]; PermissionGroups: List of [Code[20]])
     var

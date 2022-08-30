@@ -1,8 +1,8 @@
-codeunit 50104 "Finastra Setup Mng."
+codeunit 71338578 "FLH Setup Mng."
 {
     procedure CreateIntegrationAADApplication()
     var
-        AADApplicationInterface: Codeunit "Finastra Azure AD Mgt.";
+        AADApplicationInterface: Codeunit "FLH Azure AD Mgt.";
         AppInfo: ModuleInfo;
         ClientDescription: Text[50];
         ContactInformation: Text[50];
@@ -32,7 +32,7 @@ codeunit 50104 "Finastra Setup Mng."
 
     local procedure GetPermissionSets() PermissionSets: List of [Code[20]]
     begin
-        PermissionSets.Add('FINASTRA');
+        PermissionSets.Add('FLH FINASTRA');
     end;
 
     local procedure GetPermissionGroups() PermissionGroups: List of [Code[20]]

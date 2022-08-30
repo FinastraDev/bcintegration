@@ -1,4 +1,4 @@
-page 50120 FinastraLoan
+page 71338575 "FLH FinastraLoan"
 {
     Caption = 'Finastra Loan Hub';//'Apply for Finastra loan';
     PageType = Worksheet; //Card //Document //List //ListPlus //Worksheet //ConfirmationDialog //StandardDialog //NavigatePage   ; 
@@ -17,7 +17,7 @@ page 50120 FinastraLoan
     {
         area(content)
         {
-            usercontrol(FinastraBanksAddIn; FinastraBanks)
+            usercontrol(FinastraBanksAddIn; "FLH FinastraBanks")
             {
                 ApplicationArea = All;
                 trigger ControlReady()
@@ -66,9 +66,9 @@ page 50120 FinastraLoan
 
     trigger OnOpenPage()
     var
-        AzureService: Codeunit "Finastra Azure AD Mgt.";
-        FinastraEventMng: codeunit "Finastra Event Mgt.";
-        FinastraSetupMgt: codeunit "Finastra Setup Mng.";
+        AzureService: Codeunit "FLH Azure AD Mgt.";
+        FinastraEventMng: codeunit "FLH Event Mgt.";
+        FinastraSetupMgt: codeunit "FLH Setup Mng.";
         Notif: Notification;
         UsrPerm: Codeunit "User Permissions";
     begin
@@ -84,7 +84,7 @@ page 50120 FinastraLoan
 
     local procedure GenerateBanksPage() html: text
     var
-        WebMgt: codeunit FinastraWebServicesMgt;
+        WebMgt: codeunit "FLH Web Services Mgt.";
         BankList: list of [Dictionary of [text, text]];
         Bank: Dictionary of [text, text];
         i: integer;

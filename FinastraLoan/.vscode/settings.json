@@ -1,0 +1,8 @@
+{
+    "al.defaultLaunchConfigurationName": "Finastra cloud sandbox",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${AppSourceCop}"
+    ],
+    "al.browser": "Chrome"
+}

@@ -1,4 +1,4 @@
-controladdin FinastraBanks
+controladdin "FLH FinastraBanks"
 {
     StartupScript = 'src/ControlAddIn/FinastraBanksControlAddIn/startup.js';
     Scripts =
