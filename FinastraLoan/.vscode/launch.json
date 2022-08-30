@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Finastra cloud sandbox",
+            "name": "Finastra DEV sandbox",
             "type": "al",
             "request": "launch",
             "environmentType": "Sandbox",
             "environmentName": "Dev",
             "tenant": "e65191ae-ab23-4975-b578-5b6bd21068f6",
-            "startupObjectId": 50120,
+            "startupObjectId": 71338575,
             "breakOnError": true,
             "breakOnRecordWrite": false,
             "launchBrowser": true,
@@ -19,13 +19,13 @@
             "schemaUpdateMode": "ForceSync"
         },
         {
-            "name": "Finastra Demo sandbox",
+            "name": "Finastra DEMO sandbox",
             "type": "al",
             "request": "launch",
             "environmentType": "Sandbox",
             "environmentName": "Demo",
             "tenant": "e65191ae-ab23-4975-b578-5b6bd21068f6",
-            "startupObjectId": 50120,
+            "startupObjectId": 9022,
             "breakOnError": true,
             "breakOnRecordWrite": false,
             "launchBrowser": true,
@@ -35,6 +35,23 @@
             "numberOfSqlStatements": 10,
             "schemaUpdateMode": "ForceSync"
         },
+        {
+            "name": "Finastra TEST sandbox",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "Test",
+            "tenant": "e65191ae-ab23-4975-b578-5b6bd21068f6",
+            "startupObjectId": 71338575,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "schemaUpdateMode": "ForceSync"
+        },        
         {
             "name": "Your own server",
             "request": "launch",
