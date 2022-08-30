@@ -32,7 +32,7 @@ codeunit 71338578 "FLH Setup Mng."
 
     local procedure GetPermissionSets() PermissionSets: List of [Code[20]]
     begin
-        PermissionSets.Add('FINASTRA');
+        PermissionSets.Add('FLH FINASTRA');
     end;
 
     local procedure GetPermissionGroups() PermissionGroups: List of [Code[20]]

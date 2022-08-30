@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Finastra Loan Hub">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 1911679698 - NamedType 3770875028" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Don't show me again</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FLH Event Mgt. - NamedType lblDontShowMeAgain</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1911679698 - NamedType 485188638" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grant Consent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FLH Event Mgt. - NamedType lblGrantConsent</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1911679698 - NamedType 2900507514" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To complete your installation of the Finastra Loan Hub, please grant access to the application.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FLH Event Mgt. - NamedType NotificationMessage</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1368402921 - Method 753784608 - NamedType 3285703916" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finastra API Calls</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FLH Setup Mng. - Method CreateIntegrationAADApplication - NamedType IntegrationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 1326064894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finastra Loan Hub</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FLH FinastraLoan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1326064894 - NamedType 2952865713" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Finastra extension has not been granted the necessary permissions. Please contact your system administrator.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FLH FinastraLoan - NamedType lblGrantPermission</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2476084982 - Action 2374790598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3470244815">
+          <source>Loan Application by Finastra</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FLH Acc. Role Center - Action FLH Finastra Loan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1811873909 - Action 2374790598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Loan Application by Finastra</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FLH Bus. Mng. Role Cntr. - Action FLH Finastra Loan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 4292478202 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finastra API call</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet FLH FINASTRA - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
