@@ -71,6 +71,16 @@ codeunit 71338576 "FLH Event Mgt."
         MyNotifications.Disable(NotificationId);
     end;
 
+    [EventSubscriber(ObjectType::Page, Page::"AAD Application List", 'OnOpenPageEvent', '', False, False)]
+    local procedure MyProcedure(var Rec: Record "AAD Application")
+    var
+        AAD: Record "AAD Application";
+        SetupMgt: Codeunit "FLH Setup Mng.";
+    begin
+        if not AAD.Get(SetupMgt.GetIntegrationClientId()) then
+            SetupMgt.CreateIntegrationAADApplication();
+    end;
+
     var
         NotificationId: Label '86e09e9d-1ba0-441d-b5c4-e7b2f42b0890', Locked = true;
         NotificationName: label 'Finastra Notification', locked = true;
