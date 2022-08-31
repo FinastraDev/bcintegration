@@ -1,6 +1,8 @@
-name: Test Current
+﻿name: Test Current
 
 on:
+  schedule:
+  - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -134,4 +136,3 @@ jobs:
         with:
           eventId: "DO0101"
           telemetryScopeJson: ${{ needs.Initialization.outputs.telemetryScopeJson }}
-
