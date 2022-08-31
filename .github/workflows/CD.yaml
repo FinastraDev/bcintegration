@@ -143,7 +143,7 @@ jobs:
   PostProcess:
     if: always()
     runs-on: [ windows-latest ]
-    needs: [ Initialization,  Build, Deploy ]
+    needs: [ Initialization,  Deploy ]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
