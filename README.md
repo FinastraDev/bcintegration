@@ -8,4 +8,5 @@ Azure DevOps: https://dev.azure.com/FinastraDev/BC%20Integration
 |-------------|--------------------------------------------------------------------------------------|
 | DEV         | https://businesscentral.dynamics.com/e65191ae-ab23-4975-b578-5b6bd21068f6/Dev        |
 | TEST        | https://businesscentral.dynamics.com/e65191ae-ab23-4975-b578-5b6bd21068f6/Test       |
+| DEMO        | https://businesscentral.dynamics.com/e65191ae-ab23-4975-b578-5b6bd21068f6/Demo       |
 | PRODUCTION  | https://businesscentral.dynamics.com/e65191ae-ab23-4975-b578-5b6bd21068f6/Production |
