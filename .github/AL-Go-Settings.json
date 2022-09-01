@@ -1,5 +1,7 @@
 ﻿{
     "type":  "AppSource App",
     "templateUrl":  "https://github.com/microsoft/AL-Go-AppSource@main",
-    "currentSchedule":  "0 0 * * *"
+    "currentSchedule":  "0 0 * * *",
+    "nextMinorSchedule":  "0 0 * * 1",
+    "nextMajorSchedule":  "0 0 1 * *"
 }
