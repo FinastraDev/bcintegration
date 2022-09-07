@@ -1,6 +1,8 @@
-name: Test Next Major
+﻿name: Test Next Major
 
 on:
+  schedule:
+  - cron: '0 0 1 * *'
   workflow_dispatch:
 
 permissions:
@@ -134,4 +136,3 @@ jobs:
         with:
           eventId: "DO0099"
           telemetryScopeJson: ${{ needs.Initialization.outputs.telemetryScopeJson }}
-
